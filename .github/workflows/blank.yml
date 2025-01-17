@@ -8,7 +8,7 @@ name: CI
        push:
          branches: [ "main" ]
 
-     jobs:
+  jobs:
        build_and_test:
          runs-on: ubuntu-latest
          steps:
